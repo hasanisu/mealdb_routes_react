@@ -13,12 +13,13 @@ const Header = () => {
              
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand to="/home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand to="/home">Restuarant-Mela</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto fs-3">
             <NavLink to="/home" className='text-decoration-none ms-4'>Home</NavLink>
-            <NavLink to="/products" className='text-decoration-none ms-4'>Products</NavLink>
+            <NavLink to="/restaurants" className='text-decoration-none ms-4'>Restaurants</NavLink>
+            <NavLink to="/users" className='text-decoration-none ms-4'>Users</NavLink>
             <NavLink to="/about" className='text-decoration-none ms-4'>About</NavLink>
           </Nav>
         </Navbar.Collapse>
